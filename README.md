@@ -8,11 +8,10 @@ Roll No : 2018801009
 
 
 My Schema : (logging,portno,directory name, version, features)
-(l,p#,d*,v##,s[*])
-Coresponding command line: -l 1 -d IIIT_HYD -p 8080 -v 5.6 -s students -s management -s faculty
 
-# Reduced the Library Structure 
-/home/ananya/Desktop/SE/A1/src/args
+(l,p#,d*,v##,s[*])
+
+Coresponding command line: -l 1 -d IIIT_HYD -p 8080 -v 5.6 -s students -s management -s faculty
 
 # Changes made to the existing code
 1. Code Redundancy
@@ -29,6 +28,4 @@ Coresponding command line: -l 1 -d IIIT_HYD -p 8080 -v 5.6 -s students -s manage
 5. Implemented code to handle the double & string array arguments (as version & features)
 6. Implemented new check conditions for the input arguments validation by introducing regex for directory name and validate conditions for Schema ( -l -p -s -d -v) 
 
-
-# Unit Tests 
 
