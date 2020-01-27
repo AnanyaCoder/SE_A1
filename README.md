@@ -4,12 +4,11 @@ Software Engineering Course Assignment 1
 Name    : Ananya Mukherjee
 Roll No : 2018801009
 
-# Instructions to run. 
+# Schema
 
-
-My Schema : (logging,portno,directory name, version, features)
-
-(l,p#,d*,v##,s[*])
+(logging,portno,directory name, version, features)  <br>
+(boolean,integer,string,double,String[])     <br> 
+(l,p#,d*,v##,s[*])       <br>
 
 Coresponding command line: -l 1 -d IIIT_HYD -p 8080 -v 5.6 -s students -s management -s faculty
 
