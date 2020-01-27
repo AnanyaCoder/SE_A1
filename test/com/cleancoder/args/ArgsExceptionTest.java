@@ -60,18 +60,6 @@ public void invalidDirectoryFormat() throws Exception {
     assertEquals("'$' is not a valid directory format.", e.errorMessage());
   }
 
-public void testInvalidFormat() throws Exception {
-    ArgsException e = new ArgsException(INVALID_ARGUMENT_FORMAT, 'x', "$");
-    assertEquals("'$' is not a valid directory format.", e.errorMessage());
-  }
-
-public void testInvalidFormat() throws Exception {
-    ArgsException e = new ArgsException(INVALID_ARGUMENT_FORMAT, 'x', "$");
-    assertEquals("'$' is not a valid argument format.", e.errorMessage());
-  }
-
-
-
  
 }
 
